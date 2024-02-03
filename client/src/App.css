@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Gaegu';
+}
+
+.carousel-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;    
+}
+
+.accordion-button, .accordion-body, .accordion-button:focus {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+}
