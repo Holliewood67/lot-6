@@ -36,19 +36,13 @@ function App() {
 
   
   return (
-    <div className="bg-black">
-      <header>
+    <Container fluid className="bg-black text-white">
         <Navigation />
-      </header>
-      <main className=' text-white'>
-        <Container fluid >
-          <Row className='d-flex'>
               <TopCarousel />
-          </Row>
-          <Row className='justify-content-md-center mx-auto" my-3 text-center'>
+          <Row className='border-bottom border-top mx-auto my-3 text-center'>
             <Col>
-              <h3 className=' mb-5'>Welcome to Lot No. 6, one of Tulsa's favorite art bars located right in the heart of the Pearl District!</h3>
-              <h5 className=' mb-5'>More text and description to come later, this is just placeholder text for spacing.</h5>
+              <h3 className='my-3'>Welcome to Lot No. 6, one of Tulsa's favorite art bars located right in the heart of the Pearl District!</h3>
+              <h5 className='my-3'>More text and description to come later, this is just placeholder text for spacing.</h5>
             </Col>
           </Row>
           <Row id="menu" className="mb-3">
@@ -65,24 +59,21 @@ function App() {
                     <Image className="p-0" src={teamHeaderPic} />
             </Row>
           <Team />
-          <Row className="my-2 justify-content-md-center">
+          <Row className="my-2 justify-content-md-center border-top border-bottom">
               <h1 className='text-center'>Contact Us</h1>
           </Row>
           <Row className='my-2'>
             <ContactForm />
           </Row>
-        </Container>
-      </main>
-      <footer className='bg-black text-white'>
-        <Container id='about'>
-          <Row>
-            <Col>Social Media</Col>
-            <Col>Location</Col>
-            <Col>Hours</Col>
+          <Row className='text-center py-4'>
+            <Col>
+              <Image src={require('./Icons/facebook.png')} />
+            </Col>
+            <Col>
+              <Image src={require('./Icons/instagram.png')} />
+            </Col>
           </Row>
-        </Container>
-      </footer>
-    </div>
+    </Container>
   );
 }
 

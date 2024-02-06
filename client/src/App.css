@@ -1,10 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One:wght@400;700&display=swap');
 
 body {
-    font-family: 'Gaegu';
+    font-family: 'Poiret One';
 }
 
 .carousel-text {
@@ -17,4 +16,9 @@ body {
     color: white;
     display: block;
     text-align: center;
+}
+
+.border-gold {
+    border: 20px;
+    border-color: #b59e5f;
 }

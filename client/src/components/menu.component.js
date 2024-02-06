@@ -57,10 +57,10 @@ export default function Menu() {
                             <Accordion.Body>
                                 <ListGroup>
                                     <Container>
-                                        <Row>
+                                        <Row className="justify-content-center">
                                         {
                                             beers.map((drink, i) => {
-                                                return  <ListGroup.Item className="bg-black text-white text-center" key={i}>{drink.name}</ListGroup.Item>
+                                                return  <Col lg={6} xl={4}><ListGroup.Item className="bg-black text-white text-center" key={i}>{drink.name}</ListGroup.Item></Col>
                                                         
                                             })
                                         }

@@ -14,9 +14,9 @@ class EventCard extends React.Component {
                         <Row>
                             <Col >
                                 <Card.Body className="d-block">
-                                <Card.Title>{this.props.eventData.name}</Card.Title>
-                                <small className="text-muted">Date and Time</small>
-                                <Card.Text>
+                                <Card.Title style={{fontSize: 32, fontWeight: "bold"}}>{this.props.eventData.name}</Card.Title>
+                                <Card.Text style={{fontSize: 24}}>Date and Time</Card.Text>
+                                <Card.Text style={{fontSize: 28, fontWeight: "bold"}}>
                                     {this.props.eventData.description}
                                 </Card.Text>
                                 </Card.Body>

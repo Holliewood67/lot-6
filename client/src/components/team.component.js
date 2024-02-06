@@ -19,7 +19,7 @@ export default function Team() {
 
 
     return (
-        <Row className="my=2 px-3">
+        <Row className="my=2 px-3 justify-content-center">
                     {(team.map((member, i) => {
                         return <TeamBioCard key={i} memberData={member}/>
                     }))}
