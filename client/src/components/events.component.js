@@ -20,7 +20,7 @@ export default function Events() {
 
 
         return (
-            <Row className="my=2 px-3 justify-content-center">
+            <Row className="p-3 justify-content-center">
                         {(events.map((event, i) => {
                             return <EventCard key={i} eventData={event}
                                         eventImage="https://picsum.photos/id/420/300/200" />

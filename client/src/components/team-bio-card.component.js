@@ -22,11 +22,6 @@ class TeamBioCard extends React.Component {
                                 </Card.Body>
                             </Col>
                         </Row>
-                        <Row>
-                            <Card.Footer>
-                                <Card.Text style={{fontSize: 24}}>Favorite Quote:</Card.Text>
-                            </Card.Footer>
-                        </Row>
                     </Card>
                     </Col>
         )

@@ -48,7 +48,7 @@ export default function Menu() {
 
         return (
             <> 
-                <Row className="px-3">
+                <Row className="p-3">
                     <Accordion className="drinks-accordion">
                         <Accordion.Item  eventKey="0" >
                             <Accordion.Header >

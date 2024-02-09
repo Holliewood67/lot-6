@@ -14,9 +14,8 @@ class Navigation extends React.Component {
                     <Nav className="me-auto text-center">
                         <Nav.Link href="#menu"><h3>Menu</h3></Nav.Link>
                         <Nav.Link href="#events"><h3>Events</h3></Nav.Link>
-                        <Nav.Link href="#team"><h3>Meet the Team</h3></Nav.Link>
+                        <Nav.Link href="#team"><h3>Our Team</h3></Nav.Link>
                         <Nav.Link href="#contact"><h3>Contact</h3></Nav.Link>
-                        <Nav.Link href="#about"><h3>About Us</h3></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
             </Navbar>

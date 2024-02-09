@@ -26,7 +26,7 @@ class ContactForm extends React.Component {
                         <Form.Label>Your Message</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+                    <Button variant="secondary" type="submit">
                         Submit
                     </Button>
                 </Form>                
