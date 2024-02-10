@@ -20,15 +20,11 @@ import Team from './components/team.component';
 import ContactForm from './components/contact-form.component';
 import Footer from './components/footer.component';
 
-//Other Imports
-import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 //Header Images
-const eventHeaderPic = require("./img/Pic-4.jpg");
-const menuHeaderPic = require("./img/Pic-5.jpg");
-const teamHeaderPic = require("./img/Pic-6.jpg")
-const contactHeaderPic = require("./img/Pic-7.jpg")
+import eventHeaderPic from './img/Pic-4.jpg';
+import menuHeaderPic from './img/Pic-5.jpg';
+import teamHeaderPic from './img/Pic-6.jpg';
+import contactHeaderPic from './img/Pic-7.jpg';
 
 
 
