@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav, Image } from "react-bootstrap";
-const logo = require('../img/Lot 6 Logo WHITE.png')
+import logo from '../img/Lot 6 Logo WHITE.png';
 
 class Navigation extends React.Component {
     render () {

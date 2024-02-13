@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 
-
 class TeamBioCard extends React.Component {
     render () {
         return (
@@ -9,7 +8,7 @@ class TeamBioCard extends React.Component {
                     <Card className="my-1">
                         <Row fluid={"true"}>
                             <Col >
-                                <Card.Img variant="top" src={require('../img/' + this.props.memberData.imgPath)} />
+                                <Card.Img variant="top" src={this.props.memberData.imgPath} />
                             </Col>
                         </Row>
                         <Row>
